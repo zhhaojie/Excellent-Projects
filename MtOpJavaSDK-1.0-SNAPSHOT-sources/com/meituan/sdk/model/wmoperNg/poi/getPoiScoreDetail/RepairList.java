@@ -1,0 +1,71 @@
+package com.meituan.sdk.model.wmoperNg.poi.getPoiScoreDetail;
+
+import com.google.gson.annotations.SerializedName;
+
+/**
+* 待提升项
+* This file was automatically generated.
+*/
+public class RepairList {
+    /**
+    * 文案name
+    */
+    @SerializedName("contentName")
+    private String contentName;
+    /**
+    * 当前指标描述
+    */
+    @SerializedName("yourShopText")
+    private String yourShopText;
+    /**
+    * 门店当前指标
+    */
+    @SerializedName("yourShop")
+    private String yourShop;
+    /**
+    * 分数
+    */
+    @SerializedName("score")
+    private String score;
+    @SerializedName("extraFields")
+    private ExtraFields extraFields;
+
+    public String getContentName() {
+        return contentName;
+    }
+    public void setContentName(String contentName) {
+        this.contentName = contentName;
+    }
+    public String getYourShopText() {
+        return yourShopText;
+    }
+    public void setYourShopText(String yourShopText) {
+        this.yourShopText = yourShopText;
+    }
+    public String getYourShop() {
+        return yourShop;
+    }
+    public void setYourShop(String yourShop) {
+        this.yourShop = yourShop;
+    }
+    public String getScore() {
+        return score;
+    }
+    public void setScore(String score) {
+        this.score = score;
+    }
+    public ExtraFields getExtraFields() {
+        return extraFields;
+    }
+    public void setExtraFields(ExtraFields extraFields) {
+        this.extraFields = extraFields;
+    }
+
+
+
+
+    @Override
+    public String toString() {
+        return "RepairList{" + "contentName=" + contentName + "," + "yourShopText=" + yourShopText + "," + "yourShop=" + yourShop + "," + "score=" + score + "," + "extraFields=" + extraFields + "}";
+    }
+}
